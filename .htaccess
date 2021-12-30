@@ -1,0 +1,15 @@
+RewriteEngine On
+
+RewriteRule ^home/$ /index.php [L]
+RewriteRule ^quen-mat-khau/$ /quen-mat-khau.php [L]
+RewriteRule ^dang-xuat/$ /dang-xuat.php [L]
+RewriteRule ^thong-tin/$ /thong-tin.php [L]
+RewriteRule ^rut-tien/$ /rut-tien.php [L]
+RewriteRule ^mua-the/$ /mua-the.php [L]
+RewriteRule ^lich-su/doi-the/$ /lich-su-doi-the.php [L]
+RewriteRule ^card-cham/$ /doi-the-cham.php [L]
+RewriteRule ^nap-dien-thoai/$ /napdt.php [L]
+RewriteRule ^reset-password/([A-Za-z0-9-]+) /rspass.php?id=$1 [L]
+RewriteRule ^donate/([A-Za-z0-9-]+) /donate.php?id=$1 [L]
+
+RewriteRule ^api/$ /system/api.php [L]
